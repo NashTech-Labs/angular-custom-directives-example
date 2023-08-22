@@ -1,0 +1,46 @@
+h1 {
+    line-height: .95;
+    color: #E14B22;
+    font-weight: 900;
+    font-size: 150px;
+    text-transform: uppercase;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+
+.center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 581px;
+    height: 50%;
+}
+
+.btn {
+    margin: 0 auto;
+    width: 170px;
+    height: 60px;
+    border: 2px solid #e7c816;
+    border-radius: 2px;
+    font-size: 16px;
+    line-height: 50px;
+    color: #E14B22;
+    letter-spacing: .25em;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-transition: background .4s, color .4s;
+    transition: background .4s, color .4s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #2de76b;
+    color: #10151B;
+}

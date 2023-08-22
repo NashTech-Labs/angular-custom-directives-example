@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Demo';
+  title = 'Nashtech';
+  static users: any= [];
+
+  static getUsers(){
+    return this.users;
+  }
+
+  static setUsers(user: any) {
+    this.users.push(user);
+  }
 }
